@@ -7,7 +7,7 @@ function sendMessage() {
     'input[name="radioDefault"]:checked'
   ).value;
   const message = `Halo Eventure! Saya ${inputNama} dari ${inputCompany}, ingin ${selectedOption}`;
-  const whatsappUrl = `https://wa.me/085928158662?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/+6285928158662?text=${encodeURIComponent(
     message
   )}`;
   window.open(whatsappUrl, "_blank");
