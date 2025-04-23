@@ -237,6 +237,12 @@ a:hover {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .grid-item {
+    padding: 10px;
+  }
+}
+
 /* slider */
 
 .carousel-item img {
