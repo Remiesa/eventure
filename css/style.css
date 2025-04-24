@@ -182,9 +182,8 @@ a:hover {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
-  font-weight: 500;
-
   border-right: 1px solid #dee2e6;
+  letter-spacing: 1px;
 }
 
 /* hero */
@@ -204,7 +203,6 @@ a:hover {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 3 columns */
-  gap: 16px; /* space between items */
 }
 
 .service-item {
@@ -379,13 +377,11 @@ a:hover {
   }
 
   .navbar-nav .nav-link {
-    font-weight: 500;
     border-top: 1px solid #dee2e6;
   }
 
   .grid-container {
     grid-template-columns: repeat(2, 2fr); /* 3 columns */
-    gap: 16px; /* space between items */
   }
 }
 

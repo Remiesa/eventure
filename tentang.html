@@ -130,7 +130,7 @@
               >
               <a
                 href="tentang.html"
-                class="nav-link mr-3 text-uppercase text-decoration-none"
+                class="nav-link active mr-3 text-uppercase text-decoration-none"
                 >Tentang Kami</a
               >
               <div class="nav-item dropdown mr-3">
@@ -159,7 +159,7 @@
 
               <a
                 href="galeri.html"
-                class="nav-link active mr-3 text-uppercase text-decoration-none"
+                class="nav-link mr-3 text-uppercase text-decoration-none"
                 >Galeri</a
               >
               <a
@@ -174,307 +174,144 @@
     </div>
     <!-- navbar2 end -->
 
-    <!-- galeri -->
+    <!-- tentang -->
     <div class="container-fluid pt-5 pb-5">
       <div class="container">
         <div class="col-lg-12">
-          <h2 class="mb-2 text-center text-uppercase">galeri</h2>
+          <h2 class="mb-2 text-uppercase text-center">
+            Apa yang kami lakukan?
+          </h2>
           <hr class="mx-auto" width="100" />
-
-          <!-- Filter Buttons -->
-          <div class="text-center mb-4">
-            <button
-              class="btn btn-outline-dark mx-1 active-filter"
-              onclick="filterGallery('all', this)"
-            >
-              ALL
-            </button>
-            <button
-              class="btn btn-outline-dark mx-1"
-              onclick="filterGallery('2025', this)"
-            >
-              2025
-            </button>
-            <button
-              class="btn btn-outline-dark mx-1"
-              onclick="filterGallery('2024', this)"
-            >
-              2024
-            </button>
-            <button
-              class="btn btn-outline-dark mx-1"
-              onclick="filterGallery('2023', this)"
-            >
-              2023
-            </button>
+        </div>
+        <div class="col-md-12 text-center">
+          <img
+            src="img/news-800x500-3.jpg"
+            class="w-100"
+            style="object-fit: cover; max-height: 500px"
+            alt=""
+          />
+        </div>
+        <div class="col-md-12 mt-4">
+          <div class="mb-4">
+            <div style="border-left: 5px solid #da2419; padding-left: 10px">
+              <h3 class="text-uppercase">CERITA KAMI</h3>
+            </div>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              voluptatibus, cumque, accusantium, doloremque hic eveniet
+              voluptates nobis asperiores ad, magnam delectus. Quod, cumque
+              voluptatibus! Quisquam, doloremque. Quod, cumque voluptatibus!
+              Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Sed saepe, assumenda iusto voluptatibus
+              accusantium possimus doloribus ipsum odio blanditiis rem?
+            </p>
           </div>
-
-          <div
-            class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3"
-            id="gallery"
-          >
-            <div class="col filter-2025">
-              <img
-                src="img/news-800x500-2.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
+          <div class="mb-4">
+            <div class="row">
+              <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card h-100">
+                  <div class="card-body text-center">
+                    <i
+                      class="fa fa-bullseye mb-3"
+                      style="font-size: 3rem; color: #da2419"
+                      aria-hidden="true"
+                    ></i>
+                    <h5 class="card-title text-uppercase font-weight-semi-bold">
+                      Misi Kami
+                    </h5>
+                    <p class="card-text">
+                      Mengembangkan dan memelihara hubungan kerja dengan klien
+                      Kami yang memungkinkan untuk melakukan apa yang Kami
+                      lakukan terbaik.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card h-100">
+                  <div class="card-body text-center">
+                    <i
+                      class="fa fa-eye mb-3"
+                      style="font-size: 3rem; color: #e67711"
+                      aria-hidden="true"
+                    ></i>
+                    <h5 class="card-title text-uppercase font-weight-semi-bold">
+                      Visi Kami
+                    </h5>
+                    <p class="card-text">
+                      Menjadi perusahaan jasa layanan Event Organizer,
+                      Experiential Learning dan Experiential Tourism terkemuka
+                      di Asia Pasifik.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col filter-2024">
-              <img
-                src="img/news-800x500-3.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-            <div class="col filter-2023">
-              <img
-                src="img/news-800x500-1.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-            <div class="col filter-2025">
-              <img
-                src="img/news-800x500-1.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-            <div class="col filter-2024">
-              <img
-                src="img/news-800x500-2.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-            <div class="col filter-2023">
-              <img
-                src="img/news-800x500-3.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-            <div class="col filter-2025">
-              <img
-                src="img/news-800x500-1.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-            <div class="col filter-2024">
-              <img
-                src="img/news-800x500-2.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-            <div class="col filter-2023">
-              <img
-                src="img/news-800x500-3.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-            <div class="col filter-2025">
-              <img
-                src="img/news-800x500-1.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-            <div class="col filter-2024">
-              <img
-                src="img/news-800x500-1.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-            <div class="col filter-2023">
-              <img
-                src="img/news-800x500-2.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-            <div class="col filter-2025">
-              <img
-                src="img/news-800x500-3.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-            <div class="col filter-2024">
-              <img
-                src="img/news-800x500-1.jpg"
-                alt=""
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#imageModal"
-                onclick="showImageModal(this)"
-              />
-            </div>
-          </div>
-
-          <!-- Pagination -->
-          <div class="text-center mt-4">
-            <button class="btn btn-outline-dark mx-1" onclick="changePage(-1)">
-              Previous
-            </button>
-            <span id="pageIndicator">Page 1</span>
-            <button class="btn btn-outline-dark mx-1" onclick="changePage(1)">
-              Next
-            </button>
           </div>
         </div>
       </div>
     </div>
+    <!-- end tentang -->
 
-    <script>
-      const itemsPerPageDesktop = 12; // 3 rows of 4 items
-      const itemsPerPageMobile = 8; // 4 rows of 2 items
-      let currentPage = 1;
-      let currentFilter = "all";
-
-      function getItemsPerPage() {
-        return window.innerWidth < 768
-          ? itemsPerPageMobile
-          : itemsPerPageDesktop;
-      }
-
-      function paginateGallery() {
-        const items = document.querySelectorAll("#gallery .col");
-        const filteredItems = Array.from(items).filter(
-          (item) =>
-            currentFilter === "all" ||
-            item.classList.contains(`filter-${currentFilter}`)
-        );
-        const itemsPerPage = getItemsPerPage();
-        const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
-
-        items.forEach((item) => (item.style.display = "none"));
-        filteredItems.forEach((item, index) => {
-          if (
-            index >= (currentPage - 1) * itemsPerPage &&
-            index < currentPage * itemsPerPage
-          ) {
-            item.style.display = "block";
-          }
-        });
-
-        document.getElementById(
-          "pageIndicator"
-        ).textContent = `Page ${currentPage}`;
-        document.querySelector(
-          '.btn-outline-dark[onclick="changePage(-1)"]'
-        ).disabled = currentPage === 1;
-        document.querySelector(
-          '.btn-outline-dark[onclick="changePage(1)"]'
-        ).disabled = currentPage === totalPages;
-      }
-
-      function changePage(direction) {
-        currentPage += direction;
-        paginateGallery();
-      }
-
-      function filterGallery(filter, button) {
-        currentFilter = filter;
-        currentPage = 1; // Reset to the first page
-        paginateGallery();
-
-        // Update active button styles
-        const buttons = document.querySelectorAll(".text-center button");
-        buttons.forEach((btn) => btn.classList.remove("active-filter"));
-        button.classList.add("active-filter");
-      }
-
-      // Recalculate pagination on window resize
-      window.addEventListener("resize", paginateGallery);
-
-      // Initialize pagination
-      paginateGallery();
-    </script>
-
-    <style>
-      .active-filter {
-        background-color: #343a40;
-        color: white;
-      }
-    </style>
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="imageModal"
-      tabindex="-1"
-      aria-labelledby="imageModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="imageModalLabel">Galeri Eventure</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
+    <!-- team -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container">
+        <div class="">
+          <div class="col-lg-12">
+            <h2 class="mb-2 text-uppercase text-center">TEAM EVENTURE</h2>
+            <hr class="mx-auto" width="100" />
           </div>
-          <div class="modal-body text-center">
-            <img id="modalImage" src="" alt="Preview" class="img-fluid" />
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+              <div class="team-item bg-white mb-4">
+                <div class="team-img position-relative overflow-hidden">
+                  <img class="img-fluid w-100" src="img/herman.jpg" alt="" />
+                </div>
+                <div class="text-center py-4">
+                  <h5 class="text-truncate">Guide Name</h5>
+                  <p class="m-0">Designation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+              <div class="team-item bg-white mb-4">
+                <div class="team-img position-relative overflow-hidden">
+                  <img class="img-fluid w-100" src="img/herman.jpg" alt="" />
+                </div>
+                <div class="text-center py-4">
+                  <h5 class="text-truncate">Guide Name</h5>
+                  <p class="m-0">Designation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+              <div class="team-item bg-white mb-4">
+                <div class="team-img position-relative overflow-hidden">
+                  <img class="img-fluid w-100" src="img/herman.jpg" alt="" />
+                </div>
+                <div class="text-center py-4">
+                  <h5 class="text-truncate">Guide Name</h5>
+                  <p class="m-0">Designation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+              <div class="team-item bg-white mb-4">
+                <div class="team-img position-relative overflow-hidden">
+                  <img class="img-fluid w-100" src="img/herman.jpg" alt="" />
+                </div>
+                <div class="text-center py-4">
+                  <h5 class="text-truncate">Guide Name</h5>
+                  <p class="m-0">Designation</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-    <script>
-      function showImageModal(image) {
-        const modalImage = document.getElementById("modalImage");
-        modalImage.src = image.src;
-      }
-    </script>
-    <!-- galeri end -->
+    <!-- end team -->
 
     <!-- Footer Start -->
     <div class="footer container-fluid pt-5 px-sm-3 px-md-5 bg-dark">
@@ -518,8 +355,7 @@
               >Kota Batu, Jawa Timur
             </p>
             <p class="font-weight-medium text-white-50">
-              <i class="fa fa-phone-alt" style="margin-right: 10px"></i>+62
-              859-2815-8662
+              <i class="fa fa-phone-alt" style="margin-right: 10px"></i>+62 859-2815-8662
             </p>
             <p class="font-weight-medium text-white-50">
               <i class="fa fa-envelope" style="margin-right: 10px"></i

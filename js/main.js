@@ -1,8 +1,8 @@
 // kirim pesan
 
 function sendMessage() {
-  const inputNama = document.getElementById("floatingInputName").value;
-  const inputCompany = document.getElementById("floatingInputCompany").value;
+  const inputNama = document.getElementById("inputNama").value;
+  const inputCompany = document.getElementById("inputPerusahaan").value;
   const selectedOption = document.querySelector(
     'input[name="radioDefault"]:checked'
   ).value;
