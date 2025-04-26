@@ -130,19 +130,19 @@
               >
               <a
                 href="tentang.html"
-                class="nav-link active mr-3 text-uppercase text-decoration-none"
+                class="nav-link mr-3 text-uppercase text-decoration-none"
                 >Tentang Kami</a
               >
               <div class="nav-item dropdown mr-3">
                 <a
                   href="#"
-                  class="nav-link dropdown-toggle text-uppercase text-decoration-none"
+                  class="nav-link active dropdown-toggle text-uppercase text-decoration-none"
                   style="outline: none"
                   data-bs-toggle="dropdown"
                   >Layanan</a
                 >
                 <div class="dropdown-menu rounded-0 m-0">
-                  <a href="#" class="dropdown-item text-decoration-none"
+                  <a href="event-organizer.html" class="active dropdown-item text-decoration-none"
                     >Event Organizer</a
                   >
                   <a href="#" class="dropdown-item text-decoration-none"
@@ -174,144 +174,159 @@
     </div>
     <!-- navbar2 end -->
 
-    <!-- tentang -->
+    <!-- layanan -->
     <div class="container-fluid pt-5 pb-5">
       <div class="container">
         <div class="col-lg-12">
-          <h2 class="mb-2 text-uppercase text-center">
-            Apa yang kami lakukan?
-          </h2>
+          <h2 class="mb-2 text-center text-uppercase">EVENT ORGANIZER</h2>
           <hr class="mx-auto" width="100" />
-        </div>
-        <div class="col-md-12 text-center">
-          <img
-            src="img/news-800x500-3.jpg"
-            class="w-100"
-            style="object-fit: cover; max-height: 500px"
-            alt=""
-          />
-        </div>
-        <div class="col-md-12 mt-4">
-          <div class="mb-4">
-            <div style="border-left: 5px solid #da2419; padding-left: 10px">
-              <h3 class="text-uppercase">CERITA KAMI</h3>
+          <div
+            id="carouselEventOrganizer"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img
+                  src="img/news-800x500-1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="img/news-800x500-2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="img/news-800x500-3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
             </div>
-            <p class="text-justify text-muted ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              voluptatibus, cumque, accusantium, doloremque hic eveniet
-              voluptates nobis asperiores ad, magnam delectus. Quod, cumque
-              voluptatibus! Quisquam, doloremque. Quod, cumque voluptatibus!
-              Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Sed saepe, assumenda iusto voluptatibus
-              accusantium possimus doloribus ipsum odio blanditiis rem?
-            </p>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselEventOrganizer"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselEventOrganizer"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <div class="mb-4">
-            <div class="row">
-              <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card h-100">
-                  <div class="card-body text-center">
-                    <i
-                      class="fa fa-bullseye mb-3"
-                      style="font-size: 3rem; color: #da2419"
-                      aria-hidden="true"
-                    ></i>
-                    <h5 class="card-title text-uppercase font-weight-semi-bold">
-                      Misi Kami
-                    </h5>
-                    <p class="card-text text-muted ">
-                      Mengembangkan dan memelihara hubungan kerja dengan klien
-                      Kami yang memungkinkan untuk melakukan apa yang Kami
-                      lakukan terbaik.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card h-100">
-                  <div class="card-body text-center">
-                    <i
-                      class="fa fa-eye mb-3"
-                      style="font-size: 3rem; color: #e67711"
-                      aria-hidden="true"
-                    ></i>
-                    <h5 class="card-title text-uppercase font-weight-semi-bold">
-                      Visi Kami
-                    </h5>
-                    <p class="card-text text-muted ">
-                      Menjadi perusahaan jasa layanan Event Organizer,
-                      Experiential Learning dan Experiential Tourism terkemuka
-                      di Asia Pasifik.
-                    </p>
-                  </div>
-                </div>
-              </div>
+          <p class="text-center text-muted p-4">
+            Eventure sebagai event organizer menyediakan layanan yang mencakup
+            penciptaan kreatif dan pengelolaan semua jenis acara untuk
+            perusahaan dan bisnis. Kami juga menawarkan layanan parsial untuk
+            klien yang hanya membutuhkan jasa manajemen acara.
+          </p>
+        </div>
+        <div
+          class="col-lg-12 row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-0"
+        >
+          <div class="card border-0">
+            <div class="card-body">
+              <i
+                class="fa fa-people-group"
+                style="font-size: 50px; color: #e67711"
+              ></i>
+              <h6
+                class="card-title text-uppercase font-weight-bold mt-3"
+                style="letter-spacing: 1px"
+              >
+                CORPORATE EVENTS
+              </h6>
+              <hr width="100" />
+              <p class="card-text text-muted">
+                Eventure membawa Brand dan ide Anda, menghidupkannya dan
+                memberikannya ke standard tertinggi untuk menciptakan pengalaman
+                yang luar biasa.
+              </p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <i
+                class="fa fa-people-group"
+                style="font-size: 50px; color: #e67711"
+              ></i>
+              <h6
+                class="card-title text-uppercase font-weight-bold mt-3"
+                style="letter-spacing: 1px"
+              >
+                company gathering
+              </h6>
+              <hr width="100" />
+              <p class="card-text text-muted">
+                Acara Company Gathering akan lebih menarik jika dikemas dengan
+                insight pembelajaran berbasis pengalaman atau experiential
+                learning.
+              </p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <i
+                class="fa fa-people-group"
+                style="font-size: 50px; color: #e67711"
+              ></i>
+              <h6
+                class="card-title text-uppercase font-weight-bold mt-3"
+                style="letter-spacing: 1px"
+              >
+                conference
+              </h6>
+              <hr width="100" />
+              <p class="card-text text-muted">
+                Kami bekerja bersama Anda untuk membuat desain dan gaya yang
+                sesuai dengan brief Anda dan menyempurnakannya dengan keunggulan
+                inovatif.
+              </p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <i
+                class="fa fa-people-group"
+                style="font-size: 50px; color: #e67711"
+              ></i>
+              <h6
+                class="card-title text-uppercase font-weight-bold mt-3"
+                style="letter-spacing: 1px"
+              >
+                AWARDS CEREMONY
+              </h6>
+              <hr width="100" />
+              <p class="card-text text-muted">
+                Eventure membawa Brand dan ide Anda, menghidupkannya dan
+                memberikannya ke standard tertinggi untuk menciptakan pengalaman
+                yang luar biasa.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- end tentang -->
-
-    <!-- team -->
-    <div class="container-fluid pt-5 pb-5">
-      <div class="container">
-        <div class="">
-          <div class="col-lg-12">
-            <h2 class="mb-2 text-uppercase text-center">TEAM EVENTURE</h2>
-            <hr class="mx-auto" width="100" />
-          </div>
-          <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-              <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                  <img class="img-fluid w-100" src="img/herman.jpg" alt="" />
-                </div>
-                <div class="text-center py-4">
-                  <h5 class="text-truncate">Guide Name</h5>
-                  <p class="m-0">Designation</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-              <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                  <img class="img-fluid w-100" src="img/herman.jpg" alt="" />
-                </div>
-                <div class="text-center py-4">
-                  <h5 class="text-truncate">Guide Name</h5>
-                  <p class="m-0">Designation</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-              <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                  <img class="img-fluid w-100" src="img/herman.jpg" alt="" />
-                </div>
-                <div class="text-center py-4">
-                  <h5 class="text-truncate">Guide Name</h5>
-                  <p class="m-0">Designation</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-              <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                  <img class="img-fluid w-100" src="img/herman.jpg" alt="" />
-                </div>
-                <div class="text-center py-4">
-                  <h5 class="text-truncate">Guide Name</h5>
-                  <p class="m-0">Designation</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end team -->
+    <!-- layanan end -->
 
     <!-- Footer Start -->
     <div class="footer container-fluid pt-5 px-sm-3 px-md-5 bg-dark">
