@@ -231,7 +231,7 @@ a:hover {
 
 /* team */
 
-.team-item .team-img img {
+/* .team-item .team-img img {
   transition: 0.5s;
 }
 
@@ -253,7 +253,7 @@ a:hover {
 
 .team-item:hover .team-img img {
   transform: scale(1.2);
-}
+} */
 
 /* footer */
 
