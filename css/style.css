@@ -229,6 +229,11 @@ a:hover {
   transform: scale(1.2);
 }
 
+.owl-stage {
+  display: flex;
+  align-items: center;
+}
+
 /* team */
 
 /* .team-item .team-img img {
